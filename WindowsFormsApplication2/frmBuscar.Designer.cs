@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBuscar));
-            System.Windows.Forms.ListViewGroup listViewGroup9 = new System.Windows.Forms.ListViewGroup("Enero2016", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup10 = new System.Windows.Forms.ListViewGroup("Febrero2016", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Enero2016", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("Febrero2016", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "02/01/2016",
             "Carmen Agreda",
             "23592487",
@@ -39,7 +39,7 @@
             "Chapatín",
             "Sacar Muela",
             "Pendiente"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "05/01/2016",
             "Juan García",
             "23590197",
@@ -47,7 +47,7 @@
             "Jaimito",
             "Limpieza",
             "Pendiente"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "11/02/2016",
             "Katherine Florez",
             "23684125",
@@ -213,21 +213,21 @@
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
-            listViewGroup9.Header = "Enero2016";
-            listViewGroup9.Name = "Enero 2016";
-            listViewGroup10.Header = "Febrero2016";
-            listViewGroup10.Name = "Febrero 2016";
+            listViewGroup1.Header = "Enero2016";
+            listViewGroup1.Name = "Enero 2016";
+            listViewGroup2.Header = "Febrero2016";
+            listViewGroup2.Name = "Febrero 2016";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup9,
-            listViewGroup10});
-            listViewItem13.Group = listViewGroup9;
-            listViewItem14.Group = listViewGroup9;
-            listViewItem15.Group = listViewGroup10;
+            listViewGroup1,
+            listViewGroup2});
+            listViewItem1.Group = listViewGroup1;
+            listViewItem2.Group = listViewGroup1;
+            listViewItem3.Group = listViewGroup2;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem13,
-            listViewItem14,
-            listViewItem15});
-            this.listView1.Location = new System.Drawing.Point(18, 140);
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
+            this.listView1.Location = new System.Drawing.Point(12, 149);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(791, 311);
             this.listView1.TabIndex = 20;

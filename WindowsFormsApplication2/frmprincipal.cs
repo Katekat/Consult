@@ -25,10 +25,15 @@ namespace WindowsFormsApplication2
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           
             frmPaciente paciente = new frmPaciente();
             paciente.Show();
 
+        }
+
+        private void toolStripButton6_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

@@ -16,12 +16,20 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
         }
-
+        
+        
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             frmBuscar buscar = new frmBuscar();
             buscar.Show();
         }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            Application.Restart();    
+        }
+
+       
 
        
 

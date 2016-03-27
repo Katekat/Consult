@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCita));
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.Guardar = new System.Windows.Forms.ToolStripButton();
+            this.Buscar = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
@@ -55,6 +55,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -66,9 +69,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
@@ -93,8 +93,8 @@
             this.toolStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton2,
-            this.toolStripButton1,
+            this.Guardar,
+            this.Buscar,
             this.toolStripButton3,
             this.toolStripSeparator1,
             this.toolStripButton4});
@@ -104,26 +104,26 @@
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripButton2
+            // Guardar
             // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(104, 40);
-            this.toolStripButton2.Text = "toolStripButton2";
+            this.Guardar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Guardar.Image = ((System.Drawing.Image)(resources.GetObject("Guardar.Image")));
+            this.Guardar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.Guardar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Guardar.Name = "Guardar";
+            this.Guardar.Size = new System.Drawing.Size(104, 40);
+            this.Guardar.Text = "toolStripButton2";
             // 
-            // toolStripButton1
+            // Buscar
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(86, 40);
-            this.toolStripButton1.Text = "Buscar";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            this.Buscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Buscar.Image = ((System.Drawing.Image)(resources.GetObject("Buscar.Image")));
+            this.Buscar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.Buscar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Buscar.Name = "Buscar";
+            this.Buscar.Size = new System.Drawing.Size(86, 40);
+            this.Buscar.Text = "Buscar";
+            this.Buscar.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton3
             // 
@@ -133,7 +133,7 @@
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(104, 40);
-            this.toolStripButton3.Text = "toolStripButton3";
+            this.toolStripButton3.Text = "Editar";
             // 
             // toolStripSeparator1
             // 
@@ -148,7 +148,8 @@
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(104, 40);
-            this.toolStripButton4.Text = "toolStripButton4";
+            this.toolStripButton4.Text = "Salir";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // panel2
             // 
@@ -348,6 +349,36 @@
             this.panel3.Size = new System.Drawing.Size(797, 132);
             this.panel3.TabIndex = 3;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(535, 28);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(40, 16);
+            this.label16.TabIndex = 19;
+            this.label16.Text = "Nota:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(272, 77);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(51, 16);
+            this.label15.TabIndex = 18;
+            this.label15.Text = "Motivo:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(272, 28);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(91, 16);
+            this.label14.TabIndex = 17;
+            this.label14.Text = "Especialidad:";
+            // 
             // textBox14
             // 
             this.textBox14.Location = new System.Drawing.Point(593, 25);
@@ -442,36 +473,6 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(272, 28);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 16);
-            this.label14.TabIndex = 17;
-            this.label14.Text = "Especialidad:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(272, 77);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(51, 16);
-            this.label15.TabIndex = 18;
-            this.label15.Text = "Motivo:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(535, 28);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(40, 16);
-            this.label16.TabIndex = 19;
-            this.label16.Text = "Nota:";
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Gainsboro;
@@ -530,8 +531,8 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton Guardar;
+        private System.Windows.Forms.ToolStripButton Buscar;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton4;

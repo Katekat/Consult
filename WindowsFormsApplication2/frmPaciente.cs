@@ -16,5 +16,10 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
         }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
