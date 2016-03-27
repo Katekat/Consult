@@ -1,0 +1,11 @@
+c:\users\katef\documents\visual studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\KateF\Documents\GitHub\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.frmLogin.resources
