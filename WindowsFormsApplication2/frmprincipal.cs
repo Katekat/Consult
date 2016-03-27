@@ -22,5 +22,13 @@ namespace WindowsFormsApplication2
             frmCita citas = new frmCita();
             citas.Show();
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmPaciente paciente = new frmPaciente();
+            paciente.Show();
+
+        }
     }
 }

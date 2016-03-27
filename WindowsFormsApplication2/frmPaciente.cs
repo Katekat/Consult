@@ -10,29 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class frmCita : Form
+    public partial class frmPaciente : Form
     {
-        public frmCita()
+        public frmPaciente()
         {
             InitializeComponent();
         }
-
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-            frmBuscar buscar = new frmBuscar();
-            buscar.Show();
-        }
-
-       
-
-        
-
-        
-
-       
-
-        
-
-        
     }
 }

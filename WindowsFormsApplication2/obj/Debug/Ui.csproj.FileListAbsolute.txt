@@ -22,3 +22,15 @@ C:\Users\KateF\Documents\GitHub\Consult\Codontologico\WindowsFormsApplication2\o
 C:\Users\KateF\Documents\GitHub\Consult\Codontologico\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
 C:\Users\KateF\Documents\GitHub\Consult\Codontologico\WindowsFormsApplication2\obj\Debug\Ui.csproj.GenerateResource.Cache
 C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\Ui.csprojResolveAssemblyReference.cache
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.frmBuscar.resources
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.frmLogin.resources
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.frmCita.resources
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.frmprincipal.resources
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\Ui.csproj.GenerateResource.Cache
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\KateF\Documents\GitHub\Consult\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.frmPaciente.resources
